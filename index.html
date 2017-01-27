@@ -1,145 +1,207 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<title>HTML Academy: Техномарт</title>
+	<meta charset="UTF-8">
+	<title>Техномарт</title>
 </head>
 <body>
-	<h1><a href="#">ТЕХНОМАРТ</a></h1>
-	<form>
-	<input type="text" placeholder="Поиск">
-	</form>
-	<ul>
-		<li><a href="#">Закладки: </a></li>
-		<li><a href="#">Корзина: </a></li>
-		<li><a href="#">Оформить заказ </a></li>
-	</ul>
-	<p color="red">Интернет-магазин строительных материалов и инструментов для ремонта</p>
-	<p>+7(812)555-05-55</p>
-	<p>г.Санкт-Петербург, ул.Б.Конюшенная, д.19/8</p>
-	<a href="#"> Войти </a>
-	<a href="#"> Регистрация </a>
-	<ul>
-		<li><a href="#">Главная</a></li>
-		<li><a href="#"> Компания</a></li>
-		<li><a href="#"> Каталог </a></li>
-		<li><a href="#">Новости</a></li>
-		<li><a href="#">Спецпредложения</a></li>
-		<li><a href="#">Доставка</a></li>
-		<li><a href="#">Контакты</a></li>
-	</ul>
-	<div>
-		<p>Материалы</p>
-		<button type="button" onclick="location.href('http://#');">На любой вкус</button>
-		<p>Иструмент</p>
-		<button type="button" onclick="location.href('http://#');">На все случаи</button>
-		<p>Техника</p>
-		<button type="button" onclick="location.href('http://#');">Для стройки</button>
-		<h3>ПЕРФОРАТОРЫ</h3>
-		<p>Настоящие мужские игрушки</p>
-		<button type="button" onclick="location.href('http://#');">ОТКРЫТЬ КАТАЛОГ</button>
-		<p>Скидки 50%</p>
-		<button type="button" onclick="location.href('http://#');">НА 350 ТОВАРОВ</button>
-		<p>Доставка</p>
-		<button type="button" onclick="location.href('http://#');">БЕСПЛАТНО</button>
-	</div>
-	<div>
-		<h2>ПОПУЛЯРНЫЕ ТОВАРЫ</h2>
-		<button type="button" onclick="#">ВСЕ ПОПУЛЯРНЫЕ ТОВАРЫ</button>
-	</div>
-	<div>
-		<div>
-			<img src="#" width=100 height=100>
-			<p>Перфоратор BOSCH BFG 9000</p>
-			<p><strike>32500 Р.</strike></p>
-			<button input="button" onclick="#">25500 Р.</button>
+	<header class="main-header">
+		<div class="header-block1">
+			<h1><a href="#">ТЕХНОМАРТ</a></h1>
+				<form action="#">
+					<input type="text" name="Поиск">
+				</form>
+			<div class="header-bookmarks">
+				<a href="#">Закладки: <span>0</span></a>
+			</div>
+			<div class="header-basket">
+				<a href="#">Корзина: <span>0</span></a>
+			</div>
+			<div class="header-order">
+				<a href="#">Оформить заказ</a>
+			</div>
 		</div>
-		<div>
-			<img src="#" width=100 height=100>
-			<p>Перфоратор BOSCH BFG 3000</p>
-			<p><strike>22500 Р.</strike></p>
-			<button input="button" onclick="#">15500 Р.</button>
+		<div class="header-block2">
+			<section class="header-description">
+				Интернет-магазин строительных материалов и инструментов для ремонта
+			</section>
+			<section class="header-contacts">
+				+7(812)555-05-55<br>
+				г.Санкт-Петербург, ул.Б.Конюшенная, д.19/8
+			</section>
+			<div class="user-block">
+				<a class="login" href="#">Войти</a>	
+				<a class="registration" href="#">Регистрация</a>
+			</div>
 		</div>
-		<div>
-			<img src="#" width=100 height=100>
-			<p>Перфоратор BOSCH BFG 6000</p>
-			<p><strike>30500 Р.</strike></p>
-			<button input="button" onclick="#">25500 Р.</button>
+		<nav class="main-navigation">
+			<ul>
+				<li><a href="#">Главная</a></li>
+				<li><a href="#"> Компания</a></li>
+				<li><a href="#"> Каталог </a></li>
+				<li><a href="#">Новости</a></li>
+				<li><a href="#">Спецпредложения</a></li>
+				<li><a href="#">Доставка</a></li>
+				<li><a href="#">Контакты</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main class="container">
+		<div class="menu">
+			<div class="menu-materials">
+				<h4>Материалы</h4>
+				<a href="#">На любой вкус</a>
+			</div>
+			<div class="menu-tools">
+				<h4>Иструмент</h4>
+				<a href="#">На все случаи</a>
+			</div>
+			<div class="menu-technics">
+				<h4>Техника</h4>
+				<a href="#">Для стройки</a>
+			</div>
+			<div class="menu-slaider">
+				<h3>ПЕРФОРАТОРЫ</h3>
+				<h4>Настоящие мужские игрушки</h4>
+				<a href="#">ОТКРЫТЬ КАТАЛОГ</a>
+			</div>
+			<div class="menu-sales">
+				<h4>Скидки 50%</h4>
+				<a href="#">НА 350 ТОВАРОВ</a>
+			</div>
+			<div class="menu-transfer">
+				<h4>Доставка</h4>
+				<a href="#">БЕСПЛАТНО</a>
+			</div>
 		</div>
-		<div>
-			<img src="#" width=100 height=100>
-			<p>Перфоратор BOSCH BFG 2000</p>
-			<button input="button" onclick="#">15500 Р.</button>
+		<div class="popular-product">
+			<h3>ПОПУЛЯРНЫЕ ТОВАРЫ</h3>
+			<a href="#">ВСЕ ПОПУЛЯРНЫЕ ТОВАРЫ</a>
 		</div>
-	</div>
-	<div>
-		<h2>ПОПУЛЯРНЫЕ ПРОИЗВОДИТЕЛИ:</h2>
-		<button type="button" onclick="#">ВСЕ ПРОИЗВОДИТЕЛИ</button>
-	</div>
-	<div>
-		<img src="#" width="70" height="50" alt="BOSH"> </img>
-		<img src="#" width="70" height="50" alt="MAKITA"> </img>
-		<img src="#" width="70" height="50" alt="DeWALT"> </img>
-		<img src="#" width="70" height="50" alt="ИНТЕРСКОЛ"> </img><br>
-		<img src="#" width="70" height="50" alt="HITACHI"> </img>
-		<img src="#" width="70" height="50" alt="LG"> </img>
-		<img src="#" width="70" height="50" alt="AEG"> </img>
-		<img src="#" width="70" height="50" alt="METABO"> </img>
-	</div>
-	<div>
-		<h2>СЕРВИСЫ </h2>
-		<p>Хороший интернет-магазин отличается от плохого не только ценами! Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
-		<button type="button" onclick="#">Доставка</button>
-		<button type="button" onclick="#">Гарантия</button>
-		<button type="button" onclick="#">Кредит</button>
-		<h2>ДОСТАВКА</h2>
-		<p>Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо зарабатываем, поднимая его на ваш этаж!</p>
-	</div>
-
-	<div>
-		<h2>КОМПАНИЯ "ТЕХНОМАРТ"</h2>
-		<p>Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и строительста не оставит равнодушными любителей сэкономить на гастарбайтерах.</p> <br>
-		<p>Мы можем доставить ваш товар в самые отдаленные точки России! Техномарт работает со многими транспортными компаниями:</p>
-		<ul>
-			<li>-Делоые линии</li>
-			<li>-Авторейдинг</li>
-			<li>-ЖелДорЭкспедиция </li>
-		</ul>
-		<a href="#">ПОДРОБНЕЕ О КОМПАНИИ</a>
-		<h2>КОНТАКТЫ</h2>
-		<p>Вы можете забрать товар сами, заехав в наш офис:</p><br>
-		<img src="maps.jpg" width=250 alt="карта"><br>
-		<a href="#">ЗАБЛУДИЛИСЬ? НАПИШИТЕ НАМ!</a>
-	</div>
-	<div>
-		<h1><a href="#">ТЕХНОМАРТ</a></h1>
-		<p>г.Санкт-Петербург, ул. Б.Конюшенная, д.19/8</p><br>
-		<p>+7(812)555-05-55</p>
-		<ul>
-			<li><a href="#">Компания</a></li>
-			<li><a href="#">Новости</a></li>
-			<li><a href="#">Каталог</a></li>
-			<li><a href="#">Доставка</a></li>
-			<li><a href="#">Контакты</a></li>
-		</ul>
-		<ul>
-			<li><a href="#">Материалы</a></li>
-			<li><a href="#">Техника</a></li>
-			<li><a href="#">Инструмент</a></li>
-			<li><a href="#">Спецпредложения</a></li>
-		</ul>
-	</div>
-	<div>
-		<p>2010-2016 Компания "Техномарт"</p><br>
-		<p>Все права защищены</p>
-		<a href="#">VK</a>
-		<a href="#">Facebook</a>
-		<a href="#">Instagram</a>
-		<p>Обратная связь.</p><br>
-		<p>mail@htmlacademy.ru</p><br>
-		<p>Разработано-</p>
-		<a href="#">htmlacademy.ru</a>
-	</div>
-
+		<div class="popular-product-list">
+			<div class="popular-product-item">
+				<a href="#"><img src="#" alt="BOSCH BFG 9000" width=100 height=100></a>
+				<a href="#"><h4>Перфоратор BOSCH BFG 9000</a></h4>
+				<div class="popular-product-price">
+					<p><strike>32500 Р.</strike></p>
+					<a href="#">25500 Р.</a>
+				</div>
+			</div>
+			<div class="popular-product-item">
+				<a href="#"><img src="#" alt="BOSCH BFG 3000" width=100 height=100></a>
+				<a href="#"><h4>Перфоратор BOSCH BFG 3000</a></h4>
+				<div class="popular-product-price">
+					<p><strike>22500 Р.</strike></p>
+					<a href="#">15500 Р.</a>
+				</div>
+			</div>
+			<div class="popular-product-item">
+				<a href="#"><img src="#" alt="BOSCH BFG 6000" width=100 height=100></a>
+				<a href="#"><h4>Перфоратор BOSCH BFG 6000</a></h4>
+				<div class="popular-product-price">
+					<p><strike>30500 Р.</strike></p>
+					<a href="#">25500 Р.</a>
+				</div>
+			</div>
+			<div class="popular-product-item">
+				<a href="#"><img src="#" alt="BOSCH BFG 2000" width=100 height=100></a>
+				<a href="#"><h4>Перфоратор BOSCH BFG 2000</a></h4>
+				<div class="popular-product-price">
+					<a href="#">15500 Р.</a>
+				</div>
+			</div>	
+		</div>
+		<div class="popular-brand">
+			<h3>ПОПУЛЯРНЫЕ ПРОИЗВОДИТЕЛИ:</h3>
+			<a href="#">ВСЕ ПРОИЗВОДИТЕЛИ</a>	
+		</div>
+		<div class="popular-brand-list">
+			<div class="popular-brand-item">
+				<a href="#"><img src="#" alt="BOSH" width="70" height="50"></a>
+			</div>
+			<div class="popular-brand-item">
+				<a href="#"><img src="#" alt="MAKITA" width="70" height="50"></a>
+			</div>
+			<div class="popular-brand-item">
+				<a href="#"><img src="#" alt="DeWALT" width="70" height="50"></a>
+			</div>
+			<div class="popular-brand-item">
+				<a href="#"><img src="#" alt="ИНТЕРСКОЛ" width="70" height="50"></a>
+			</div>
+			<div class="popular-brand-item">
+				<a href="#"><img src="#" alt="HITACHI" width="70" height="50"></a>
+			</div>
+			<div class="popular-brand-item">
+				<a href="#"><img src="#" alt="LG" width="70" height="50"></a>
+			</div>
+			<div class="popular-brand-item">
+				<a href="#"><img src="#" alt="AEG" width="70" height="50"></a>
+			</div>
+			<div class="popular-brand-item">
+				<a href="#"><img src="#" alt="METABO" width="70" height="50"></a>
+			</div>
+		</div>
+		<div class="services-content">
+			<h2>СЕРВИСЫ </h2>
+			<p>Хороший интернет-магазин отличается от плохого не только ценами! Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
+			<button type="button" onclick="#">Доставка</button>
+			<button type="button" onclick="#">Гарантия</button>
+			<button type="button" onclick="#">Кредит</button>
+			<h2>ДОСТАВКА</h2>
+			<p>Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо зарабатываем, поднимая его на ваш этаж!</p>
+		</div>
+		<div class="info-content">
+			<h2>КОМПАНИЯ "ТЕХНОМАРТ"</h2>
+			<p>Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и строительста не оставит равнодушными любителей сэкономить на гастарбайтерах.</p> <br>
+			<p>Мы можем доставить ваш товар в самые отдаленные точки России! Техномарт работает со многими транспортными компаниями:</p>
+			<ul>
+				<li>Делоые линии</li>
+				<li>Авторейдинг</li>
+				<li>ЖелДорЭкспедиция </li>
+			</ul>
+			<a href="#">ПОДРОБНЕЕ О КОМПАНИИ</a>
+		</div>
+		<div class="contacts-content">
+			<h2>КОНТАКТЫ</h2>
+			<p>Вы можете забрать товар сами, заехав в наш офис:</p><br>
+			<img src="maps.jpg" width=250 alt="карта"><br>
+			<a href="#">ЗАБЛУДИЛИСЬ? НАПИШИТЕ НАМ!</a>
+		</div>
+	</main>
+	<footer class="main-footer">		
+		<div class="footer-container">
+			<section class="footer-contacts">
+				ТЕХНОМАРТ<br>
+				г.Санкт-Петербург, ул. Б.Конюшенная, д.19/8<br>
+				+7(812)555-05-55
+			</section>
+			<ul class="footer-navigation">
+				<li><a href="#">Компания</a></li>
+				<li><a href="#">Новости</a></li>
+				<li><a href="#">Каталог</a></li>
+				<li><a href="#">Доставка</a></li>
+				<li><a href="#">Контакты</a></li>
+			</ul>
+			<ul>
+				<li><a href="#">Материалы</a></li>
+				<li><a href="#">Техника</a></li>
+				<li><a href="#">Инструмент</a></li>
+				<li><a href="#">Спецпредложения</a></li>
+			</ul>
+			<p>2010-2016 Компания "Техномарт"</p><br>
+			<p>Все права защищены</p>
+			<section class="footer-social">
+				<a href="#">VK</a>
+				<a href="#">Facebook</a>
+				<a href="#">Instagram</a>
+				<p>Обратная связь.</p><br>
+				<p>mail@htmlacademy.ru</p>
+			</section>
+			<section class="footer-copyright">
+				<p>Разработано-</p>
+				<a class="btn" href="https://htmlacademy.ru">htmlacademy.ru</a>
+			</section>
+		</div>
+	</footer>
 </body>
 </html>
