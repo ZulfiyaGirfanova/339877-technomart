@@ -6,26 +6,28 @@
 </head>
 <body>
 	<header class="main-header">
-		<div class="header-block1">
+		<div class="first-header">
 			<h1><a href="#">ТЕХНОМАРТ</a></h1>
-				<form action="#">
+			<div class="search-header">
+				<form action="#" method="get">
 					<input type="text" name="Поиск">
 				</form>
-			<div class="header-bookmarks">
+			</div>
+			<div class="bookmarks-header">
 				<a href="#">Закладки: <span>0</span></a>
 			</div>
-			<div class="header-basket">
+			<div class="basket-header">
 				<a href="#">Корзина: <span>10</span></a>
 			</div>
-			<div class="header-order">
+			<div class="order-header">
 				<a href="#">Оформить заказ</a>
 			</div>
 		</div>
-		<div class="header-block2">
-			<section class="header-description">
+		<div class="second-header">
+			<section class="description-header">
 			Интернет-магазин строительных материалов и инструментов для ремонта
 			</section>
-			<section class="header-contacts">
+			<section class="contacts-header">
 			+7(812)555-05-55<br>
 			г.Санкт-Петербург, ул.Б.Конюшенная, д.19/8
 			</section>
@@ -38,8 +40,8 @@
 		<nav class="main-navigation">
 			<ul>
 				<li><a href="#">Главная</a></li>
-				<li><a href="#"> Компания</a></li>
-				<li><a href="#"> Каталог </a></li>
+				<li><a href="#">Компания</a></li>
+				<li><a href="#">Каталог</a></li>
 				<li><a href="#">Новости</a></li>
 				<li><a href="#">Спецпредложения</a></li>
 				<li><a href="#">Доставка</a></li>
@@ -48,7 +50,7 @@
 		</nav>
 	</header>
 	<main class="container">
-		<ul>
+		<ul class="container-list">
 			<li><a href="#">Каталог</a></li>
 			<li><a href="#">Инструмент</a></li>
 			<li>Перфораторы</li>
@@ -98,54 +100,51 @@
 			</div>
 			<div class="product-list">
 				<div class="product-item">
-					<a href="#"><img src="#" alt="BOSCH BFG 3000" width=100 height=100></a>
+					<a href="#"><img src="#" alt="BOSCH BFG 3000" width="100" height="100"></a>
 					<h3><a href="#">Перфоратор BOSCH BFG 3000</a></h3>
 					<div class="product-item-price">
-						<p><strike>22500 Р.</strike></p>
 						<a href="#">15500 Р.</a>
 					</div>
 				</div>
-				<div>
-					<a href="#"><img src="#" alt="BOSCH BFG 6000" width=100 height=100></a>
+				<div class="product-item">
+					<a href="#"><img src="#" alt="BOSCH BFG 6000" width="100" height="100"></a>
 					<h3><a href="#">Перфоратор BOSCH BFG 6000</a></h3>
 					<div class="product-item-price">
-						<p><strike>30500 Р.</strike></p>
 						<a href="#">25500 Р.</a>
 					</div>
 				</div>
-				<div>
-					<a href="#"><img src="#" alt="BOSCH BFG 2000" width=100 height=100></a>
+				<div class="product-item">
+					<a href="#"><img src="#" alt="BOSCH BFG 2000" width="100" height="100"></a>
 					<h3><a href="#">Перфоратор BOSCH BFG 2000</a></h3>
 					<div class="product-item-price">
 						<a href="#">12500 Р.</a>
 					</div>
 				</div>
-				<div>
-					<a href="#"><img src="#" alt="BOSCH BFG 3000" width=100 height=100></a>
+				<div class="product-item">
+					<a href="#"><img src="#" alt="BOSCH BFG 3000" width="100" height="100"></a>
 					<h3><a href="#">Перфоратор BOSCH BFG 3000</a></h3>
 					<div class="product-item-price">
-						<p><strike>22500 Р.</strike></p>
 						<a href="#">15500 Р.</a>
 					</div>
 				</div>
-				<div>
-					<a href="#"><img src="#" alt="BOSCH BFG 6000" width=100 height=100></a>
+				<div class="product-item">
+					<a href="#"><img src="#" alt="BOSCH BFG 6000" width="100" height="100"></a>
 					<h3><a href="#">Перфоратор BOSCH BFG 6000</a></h3>
 					<div class="product-item-price">
 						<p><strike>30500 Р.</strike></p>
 						<a href="#">25500 Р.</a>
 					</div>
 				</div>
-				<div>
-					<a href="#"><img src="#" alt="BOSCH BFG 2000" width=100 height=100></a>
+				<div class="product-item">
+					<a href="#"><img src="#" alt="BOSCH BFG 2000" width="100" height="100"></a>
 					<h3><a href="#">Перфоратор BOSCH BFG 2000</a></h3>
 					<div class="product-item-price">
 						<a href="#">12500 Р.</a>
 					</div>
 				</div>
 			</div>
-			<div class="page">
-				<div class="page-list">
+			<div class="pager">
+				<div class="pager-list">
 					<a href="#">1</a>
 					<a href="#">2</a>
 					<a href="#">3</a>
@@ -160,13 +159,9 @@
 			<p>В ассортиментном ряду есть выбор "трехрежимников": в одном устройстве будут совмещены отбойный молоток и ударная дрель. </p>
 		</div>
 	</main>
-		<footer class="main-footer">		
-			<div class="footer-container">
-				<section class="footer-contacts">
-				ТЕХНОМАРТ<br>
-				г.Санкт-Петербург, ул. Б.Конюшенная, д.19/8<br>
-				+7(812)555-05-55
-				</section>
+		<footer class="main-footer">
+			<div class="first-footer">		
+				<h1><a href="#">ТЕХНОМАРТ</a></h1>
 				<ul class="footer-navigation">
 					<li><a href="#">Компания</a></li>
 					<li><a href="#">Новости</a></li>
@@ -174,18 +169,26 @@
 					<li><a href="#">Доставка</a></li>
 					<li><a href="#">Контакты</a></li>
 				</ul>
-				<ul>
+				<section class="footer-contacts">
+				г.Санкт-Петербург, ул. Б.Конюшенная, д.19/8<br>
+				+7(812)555-05-55
+				</section>
+				<ul class="footer-navigation">
 					<li><a href="#">Материалы</a></li>
 					<li><a href="#">Техника</a></li>
 					<li><a href="#">Инструмент</a></li>
 					<li><a href="#">Спецпредложения</a></li>
 				</ul>
+			</div>
+			<div class="second-footer">
 				<p>2010-2016 Компания "Техномарт"</p><br>
 				<p>Все права защищены</p>
 				<section class="footer-social">
 					<a href="#">VK</a>
 					<a href="#">Facebook</a>
 					<a href="#">Instagram</a>
+				</section>
+				<section class="footer-mail">
 					<p>Обратная связь.</p><br>
 					<p>mail@htmlacademy.ru</p>
 				</section>
