@@ -1,16 +1,153 @@
+html,
 body {
-  margin: 0;
-  padding: 0;
+	min-width: 1122px;
+	min-height: 1750px;
+	margin: 0;
+	padding: 0;
 }
-body {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 13px;
-}
+
 .header {
-  font-size: 18px;
-  font-family: 'Cuprum';
+	min-height: 42px;
+}
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+
 }
 .container {
-  width: 940px;
-  margin: 0 auto;
+	width: 940px;
+	padding: 0 10px;
+	margin: 0 auto;
+}
+.top-header {
+	min-height: 42px;
+	margin-bottom: 46px;
+}
+.top-header-logo {
+	float: left;
+	width: 220px;
+
+}
+.top-header-search {
+	width: 230px;
+	float: left;
+}
+.top-header-bookmarks {
+	width: 140px;
+	float: left;
+}
+.top-header-basket {
+	width: 140px;
+	float: left;
+}
+.top-header-order {
+	float: right;
+	width: 150px;
+}
+.bottom-header {
+	min-height: 158px;
+	margin-bottom: 46px;
+}
+.bottom-header-description {
+	width: 205px;
+	float: left;
+	font-style: italic;
+	font-size: 16px;
+	font-weight: 23px;	
+}
+.bottom-header-contacts {
+	width: 270px;
+	float: left;
+	margin: 0 0 0 60px;
+	position: relative;
+}
+.bottom-header-contacts.number {
+	font-size: 21px;
+	font-style: "Curprum", "Regular";
+}
+.bottom-header-contacts.adress {
+	font-size: 14px;
+	font-style: "Curprum", "Regular";
+	font-weight: 24px;
+}
+.user-block {
+	float: right;
+	font-size: 21px;
+	font-weight: 400;
+	padding-left: 100px;
+	position: relative;
+}
+.user-block-login {
+	margin-right: 10px;
+	padding: 12px 26px 12px 47px;
+}
+.main-navigation {
+	text-align: center;
+	width: 940px;
+	float: left;
+	font-size: 21px;
+	font-family: "Cuprum", sans-serif, Arial;
+	margin-bottom: 60px;
+}
+.main-navigation ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-size: 0;
+}
+.main-navigation li {
+	display: inline-block;
+	padding-right: 10px;
+	font-size: 17px;
+	vertical-align: top;
+	float: left;
+}
+.main-navigation a {
+	text-decoration: none;
+	display: block;
+	padding: 25px 20px;
+}
+.banner-list {
+	margin-bottom: 59px;
+}
+.promo-item-materials, .promo-item-tools, .promo-item-technics {
+	min-height: 125px;
+}
+.promo-item-materials {
+	float: left;
+	width: 300px;
+	margin-right: 20px;
+	background: #f6b22d;
+	margin-bottom: 20px;
+}
+.promo-item-tools {
+	float: left;
+	width: 300px;
+	margin-right: 20px;
+	background: #4aafde;
+	margin-bottom: 20px;
+}
+.promo-item-technics {
+	float: right;
+	width: 300px;
+	background: #cc79d1;
+	margin-bottom: 20px;
+}
+.promo-item-sales {
+	float: right;
+	width: 300px;
+	margin-left: 20px;
+	min-height: 125px;
+	margin-bottom: 20px;
+	background: #85d179;
+}
+
+.promo-item-transfer {
+	float: right;
+	width: 300px;
+	margin-left: 40px;
+	min-height: 125px;
+	margin-top: 143px;
+	background: #f6b22d;
 }
