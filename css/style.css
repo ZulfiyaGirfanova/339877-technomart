@@ -146,8 +146,195 @@ body {
 .promo-item-transfer {
 	float: right;
 	width: 300px;
-	margin-left: 40px;
+	margin-left: 60px;
 	min-height: 125px;
 	margin-top: 143px;
 	background: #f6b22d;
+}
+.banner-slider {
+	float: left;
+	width: 620px;
+	min-height: 266px;
+	background-color: #7a7068; 
+	margin-right: 20px;
+}
+.slide-button {
+	float: left;
+	margin-right: 20px;
+}
+.slide-button a {
+	float: left;
+	margin-right: 20px;
+}
+.product {
+	margin-bottom: 20px;
+}
+.product-section-header {
+	min-height: 60px;
+	background: #f7f3ec;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	font-family: "Cuprum", sans-serif, Arial;
+}
+.product-section-header h3 {
+	float: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: "Cuprum", sans-serif, Arial;
+	text-transform: uppercase;
+	font-size: 30px;
+}
+
+	/*color: #32425c;
+	margin-bottom: 55px;
+	text-transform: uppercase;
+	font-family: 'Cuprum';
+	font-size: 30px;
+	font-weight: 400;
+	margin: 0 0 0 30px;
+	line-height: 89px;
+	max-width: 700px;*/
+}
+.product-section-header a {
+	float: right;
+	width: 250px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin: 20px;
+	background: #ee3643;
+	border-radius: 3px;
+}
+.product-list {
+	width: 940px;
+	margin-bottom: 20px;
+}
+.product-item {
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	min-height: 320px;
+	width: 210px;
+	background: white;
+	border: 1px solid #ccc;
+	font-size: 16px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+.popular-brand {
+	margin-bottom: 20px;
+}
+.popular-brand-section-header {
+	min-height: 90px;
+	background: #f7f3ec;
+	margin-bottom: 21px;
+	text-transform: uppercase;
+	font-family: "Cuprum", sans-serif, Arial;
+}
+.popular-brand-section-header h3 {
+	float: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: "Cuprum", sans-serif, Arial;
+	text-transform: uppercase;
+	font-size: 30px;
+}
+.popular-brand-section-header a {
+	float: right;
+	width: 250px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin: 20px;
+	background: #ee3643;
+	border-radius: 3px;
+}
+.popular-brand-list {
+	margin-bottom: 85px;
+	padding: 0 10px 10px;
+}
+.popular-brand-list a {
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	min-height: 140px;
+	width: 210px;
+	background: white;
+	border: 1px solid #ccc;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+.services-content {
+	padding-top: 64px;
+	background-color: #f2f6f8;
+	margin-bottom: 70px;
+}
+.services-content h2 {
+	margin-bottom: 25px;
+}
+.services-content p {
+	font-family: "PT Sans", sans-serif, Arial;
+	font-size: 13px;
+	line-height: 24px;
+	color: #000000;
+}
+.info-content {
+	float: left;
+	width: 540px;
+	margin-right: 40px;
+}
+
+.info-content h2 {
+	font-family: "Cuprum", sans-serif, Arial;
+	text-transform: uppercase;
+}
+.info-content-variants-transfer {
+	margin-left: 36px;
+	margin-bottom: 34px;
+}
+.info-content-variants-transfer li {
+	position: relative;
+	margin-bottom: 20px;
+	list-style: none;
+	font-family: "Cuprum", sans-serif, Arial;
+	font-size: 18px;
+	line-height: 20px;
+	font-weight: 400;
+	color: #000000;
+}
+.info-content-variants-transfer li:last-child {
+	margin-bottom: 0;
+}
+.info-content-variants-transfer li:before {
+	position: absolute;
+	top: 11px;
+	left: -36px;
+	width: 25px;
+	height: 2px;
+	background-color: #fb565a;
+	content: "";
+}
+.contacts-content {
+	margin-bottom: 87px;
+}
+.contacts-content h2 {
+	font-family: "Cuprum", sans-serif, Arial;
+	
+}
+.main-footer {
+	margin-top: 87px;
+}
+.bottom-footer {
+	color: #FFFFFF;
+	font-family: 'Cuprum';
+	font-size: 16px;
+	line-height: 1.125;
+}
+.footer-social {
+	float: left;
+	width: 200px;
+	margin-right: 60px;
+}
+.footer-copyright {
+	float: left;
+	width: 350px;
+	margin: 0 30px 0 0;
 }
