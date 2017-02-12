@@ -3,57 +3,64 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Техномарт-каталог</title>
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 	<header class="header">
 		<div class="top-header">
 			<div class="container">
-				<div class="top-header-wrapper">
-					<h1><a href="#">ТЕХНОМАРТ</a></h1>
-					<div class="top-header-search">
-						<form action="#" method="get">
-							<input type="text" name="Поиск">
-						</form>
-					</div>
-					<div class="top-header-bookmarks">
-						<a href="#">Закладки: <span>0</span></a>
-					</div>
-					<div class="top-header-basket">
-						<a href="#">Корзина: <span>10</span></a>
-					</div>
-					<div class="top-header-order">
-						<a href="#">Оформить заказ</a>
-					</div>
+				<div class="top-header-logo clearfix">
+					<a href="#">ТЕХНОМАРТ</a>
+				</div>
+				<div class="top-header-search">
+					<form action="#" method="get">
+						<input class="search" type="text" name="Поиск" placeholder="Поиск:">
+					</form>
+				</div>
+				<div class="top-header-bookmarks">
+					<a href="#">Закладки: <span>0</span></a>
+				</div>
+				<div class="top-header-basket">
+					<a href="#">Корзина: <span>10</span></a>
+				</div>
+				<div class="top-header-order">
+					<a href="#">Оформить заказ</a> 
 				</div>
 			</div>
 		</div>
-		<div class="container">
-			<div class="bottom-header">
-				<section class="description-header">
-				Интернет-магазин строительных материалов и инструментов для ремонта
-				</section>
-				<section class="contacts-header">
-				+7(812)555-05-55<br>
-				г.Санкт-Петербург, ул.Б.Конюшенная, д.19/8
-				</section>
+		<div class="bottom-header clearfix">
+			<div class="container">
+				<div class="bottom-header-description">
+					<div class="description">Интернет-магазин строительных материалов и инструментов для ремонта</div>
+				</div>
+				<div class="bottom-header-contacts">
+					<div class="bottom-header-contacts-number">
+					+7(812)555-05-55
+					</div>
+					<div class="bottom-header-contacts-adress">
+					г.Санкт-Петербург, ул.Б.Конюшенная, д.19/8
+					</div>
+				</div>
 				<div class="user-block">
-					<a class="user-block-login" href="#">Иван Иванович</a>	
-					<a class="user-block-my-orders" href="#">Мои заказы</a>
-					<a class="user-block-my-room" href="#">Личный кабинет</a>
+					<div><a class="user-block-login" href="#">Иван Иванович</a></div>	
+					<div><a class="user-block-my-orders" href="#">Мои заказы</a></div>
+					<div><a class="user-block-my-room" href="#">Личный кабинет</a></div>
 				</div>
 			</div>
+			<div class="container">
+				<nav class="main-navigation">
+					<ul>
+						<li><a href="#">Главная</a></li>
+						<li><a href="#">Компания</a></li>
+						<li><a href="catalog.html">Каталог</a></li>
+						<li><a href="#">Новости</a></li>
+						<li><a href="#">Спецпредложения</a></li>
+						<li><a href="#">Доставка</a></li>
+						<li><a href="#">Контакты</a></li>
+					</ul>
+				</nav>
+			</div>
 		</div>
-		<nav class="main-navigation">
-			<ul>
-				<li><a href="#">Главная</a></li>
-				<li><a href="#">Компания</a></li>
-				<li><a href="#">Каталог</a></li>
-				<li><a href="#">Новости</a></li>
-				<li><a href="#">Спецпредложения</a></li>
-				<li><a href="#">Доставка</a></li>
-				<li><a href="#">Контакты</a></li>
-			</ul>
-		</nav>
 	</header>
 	<main class="container">
 		<ul class="breadcrumbs">
