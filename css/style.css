@@ -76,18 +76,25 @@ body {
 	color: #000000;
 	width: 140px;
 }
-.top-header-bookmarks {
+
+.top-header-bookmarks, 
+.top-header-basket,
+.top-header-order {
 	float: left;
+}
+
+.top-header-bookmarks {
+	/*float: left;*/
 	width: 140px;
 	color: white;
 }
 .top-header-basket {
 	width: 140px;
-	float: left;
+	/*float: left;*/
 	color: white;
 }
 .top-header-order {
-	float: right;
+	/*float: right;*/
 	width: 130px;
 	color: white;
 	font-family: "Cuprum", sans-serif, Arial;
@@ -98,6 +105,7 @@ body {
 	text-decoration: none;
 	width: 150px;
 	background: #63a63e;
+	margin-left: 70px;
 }
 
 /*Второй */
@@ -194,7 +202,8 @@ body {
 	padding-right: 10px;
 	font-size: 17px;
 	vertical-align: top;
-	float: left;
+	/*float: left;*/
+
 }
 .main-navigation a {
 	display: block;
@@ -284,6 +293,8 @@ body {
 	display: flex;
 	justify-content: space-between
 }
+
+
 /*
 .product-section-header h3 {
 	float: left;
@@ -378,7 +389,7 @@ body {
 .about-header,
 .contacts-header {
 	margin: 0 0 35px 0;
-	font-family: 'Cuprum';
+	font-family: 'Cuprum', 'Arial', sans-serif;
 	font-size: 30px;
 	line-height: 22px;
 }
@@ -398,7 +409,7 @@ body {
 	font-size: 18px;
 	line-height: 2;
 	text-decoration: none;
-	font-family: 'Cuprum';
+	font-family: 'Cuprum', 'Arial', sans-serif;
 }
 
 .btn--about {
@@ -429,7 +440,7 @@ body {
 /*FOOTER*/
 .footer-top {
 	background: #32425C;
-	font-family: 'Cuprum';
+	font-family: 'Cuprum', 'Arial', sans-serif;
 	font-size: 18px;
 	padding-bottom: 50px;
 }
@@ -441,7 +452,7 @@ body {
 	position: relative;
 }
 
-.footer-top .logo {
+.footer-top .footer-logo {
 	line-height: 64px;
 	font-size: 30px;
 	margin-bottom: 30px;
@@ -449,7 +460,7 @@ body {
 	color: white;
 }
 
-.address {
+.footer-address {
 	display: inline-block;
 }
 
@@ -540,3 +551,305 @@ body {
 	text-decoration: none;
 	}
 
+
+/*Catalog.html*/
+
+
+.breadcrumbs {
+	padding: 0;
+	margin: 20px 20px 20px 30px;
+	position: relative;
+}
+
+.breadcrumbs li {
+	list-style: none;
+	display: inline-block;
+	color: #000000;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 18px;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin: 0 20px;
+}
+
+.breadcrumbs a {
+	color: #000000;
+	text-decoration: none;
+}
+
+
+.main-title {
+	background: #f2f6f8;
+	font-family: 'Cuprum', 'Arial', sans-serif;
+	color: #32425c;
+	font-size: 30px;
+	font-weight: 400;
+	text-transform: uppercase;
+	padding: 30px;
+	margin: 0 0 20px;
+}
+
+.filter {
+	float: left;
+	width: 220px;
+	position: relative;
+	margin: 0 0 60px;
+}
+
+.filter-block {
+	font-family: 'OpenSans', sans-serif;
+	font-size: 12px;
+	font-weight: 500;
+	line-height: 18px;
+	text-transform: uppercase;
+	background: #f7f3ec;
+	padding: 16px 16px;
+	margin: 0 0 12px;
+}
+
+.filter h3 {
+	font-family: 'OpenSans', sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 1.877;
+	text-transform: uppercase;
+	margin: 0;
+	display: block;
+	padding: 0 0 10px;
+}
+.price-slider {
+	position: relative;
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	width: 220px;
+	padding: 0 0 40px;
+}
+
+
+.range-controls {
+	position: relative;
+	height: 80px;
+	margin-bottom: 15px;
+	padding: 0 30px;
+	background: #f7f3ec;
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+.range-controls .dial {
+	margin-top: 39px;
+	height: 2px;
+	background: #d7dcde;
+}
+
+.range-controls .band {
+	height: 2px;
+	background: #00ca74;
+	width: 70%;
+}
+
+.range-controls .switch {
+	width: 4px;
+	height: 4px;
+	border: 8px solid white;
+	background: #ababab;
+	position: absolute;
+	top: 30px;
+	left: 30px;
+	cursor: pointer;
+	border-radius: 50%;
+	-moz-box-shadow: 0 2px 1px 0 #cfcfcf;
+	-webkit-box-shadow: 0 2px 1px 0 #cfcfcf;
+	box-shadow: 0 2px 1px 0 #cfcfcf;
+}
+
+.range-controls .max-switch {
+	left: 145px;
+}
+
+.price-controls input {
+	width: 70px;
+	padding: 8px 5px;
+	margin-left: 5px;
+	border: none;
+	background: #f7f3ec;
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	text-align: center;
+	color: #283136;
+	border-radius: 5px;
+}
+
+.price-controls .min-price {
+	margin-right: 5px;
+}
+
+.price-controls {
+	white-space: nowrap;
+}
+
+.produser {
+	padding: 0 0 40px;
+	position: relative;
+}
+
+.power {
+	padding: 0 0 40px;
+	position: relative;
+}
+
+.checkbox,
+.radiobutton {
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 20px;
+	text-transform: uppercase;
+	padding: 0 0 20px;
+}
+
+.checkbox:last-child,
+.radiobutton:last-child {
+	padding: 0;
+}
+
+.produser input,
+.power input {
+	display: none;
+}
+
+.produser label,
+.power label {
+	padding: 0 0 0 30px;
+}
+
+
+
+
+.sort {
+	float: right;
+	width: 700px;
+	margin: 0 0 60px;
+}
+
+.sort-list{
+	margin: 0;
+	padding: 0;
+	float: right;
+	position: relative;
+}
+
+.sort-list li {
+	display: inline-block;
+	margin: 0 30px;
+}
+
+.sort-list li:last-child {
+	margin: 0 10px;
+}
+
+.sort-option {
+	padding: 10px 5px 3px;
+	color: #bcbcbc;
+	font-weight: 400;
+	line-height: 18px;
+	text-decoration: none;
+	border-bottom: 1px dotted #ee3643;
+}
+
+.sort-option-active {
+	color: #ee3643;
+	border-bottom: none;
+}
+.produser-item-list :nth-child(3n) {
+	margin-right: 0;
+}
+
+
+.product-item {
+	width: 219px;
+	height: 317px;
+	background: white;
+	border: 1px solid #ccc;
+}
+.product-list-1 {
+	display: flex;
+	margin-top: 90px;
+}
+.product-item-1 {
+	margin-left: 20px;
+}
+.product-item-2 {
+	margin-left: 20px;
+}
+.product-item-3 {
+	margin-left: 20px;
+}
+
+.product-list-2 {
+	display: flex;
+	margin-top: 20px;
+  
+}
+.product-list-3 {
+	display: flex;
+	margin-top: 20px;
+}
+
+
+.pager-list {
+	margin-top: 65px;
+	margin-bottom: 65px;
+	padding: 10px 0;
+	margin-left: 230px;
+}
+
+.pager-list ul {
+	margin: 0;
+	padding: 0;
+}
+
+.pager-list ul li {
+	min-width: 20px;
+	display: inline-block;
+	text-align: center;
+	padding-left: 5px;
+}
+
+.page-button {
+	text-decoration: none;
+	padding: 10px 15px;
+	border: 1px solid #e5e5e5;
+	color: #000000;
+	text-transform: uppercase;
+	border-radius: 5%;
+}
+
+.about-item {
+	background: #f2f6f8;
+}
+
+.about-item h2 {
+	font-family: 'Cuprum', 'Arial', sans-serif;
+	color: #000000;
+	font-size: 30px;
+	font-weight: 400;
+	margin: 0 0 20px;
+}
+
+.about-item p {
+	font-family: 'OpenSans', sans-serif;
+	color: #000000;
+	line-height: 24px;
+	margin: 0;
+}
+
+.about-item-description {
+	width: 940px;
+	padding: 70px 0;
+	margin: 0 auto;
+}
