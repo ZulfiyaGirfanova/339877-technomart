@@ -1,55 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
 	<meta charset="UTF-8">
-	<title>Техномарт-каталог</title>
+	<title>Техномарт</title>
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 	<header class="header">
 		<div class="top-header">
 			<div class="container">
-				<div class="top-header-logo clearfix">
-					<a href="#">ТЕХНОМАРТ</a>
-				</div>
-				<div class="top-header-search">
-					<form action="#" method="get">
-						<input class="search" type="text" name="Поиск" placeholder="Поиск:">
+				<div class="top-header-top-nav">
+					<a class="logo" href="#">ТЕХНОМАРТ</a>
+					<form class="top-header-search" action="#">
+						<input type="text" id="top-header-search-box" name="search">
+						<label for="top-header-search-box">Поиск:</label>
 					</form>
-				</div>
-				<div class="top-header-bookmarks">
-					<a href="#">Закладки: <span>0</span></a>
-				</div>
-				<div class="top-header-basket">
-					<a href="#">Корзина: <span>10</span></a>
-				</div>
-				<div class="top-header-order">
-					<a href="#">Оформить заказ</a> 
+					<div class="top-header-bookmarks">
+						<a href="#">Закладки: <span>0</span></a>
+					</div>
+					<div class="top-header-basket">
+						<a href="#">Корзина: <span>10</span></a>
+					</div>
+					<div class="top-header-order">
+						<a href="#">Оформить заказ</a> 
+					</div>
 				</div>
 			</div>
 		</div>
-		<div class="bottom-header clearfix">
+		<div class="bottom-header">
 			<div class="container">
-				<div class="bottom-header-description">
-					<div class="description">Интернет-магазин строительных материалов и инструментов для ремонта</div>
-				</div>
-				<div class="bottom-header-contacts">
-					<div class="bottom-header-contacts-number">
-					+7(812)555-05-55
+				<div class="bottom-menu clearfix">
+					<p class="bottom-menu-description">Интернет-магазин строительных материалов и инструментов для ремонта</p>
+					<div class="bottom-menu-contacts">
+						<p class="contacts-number">
+						+7(812)555-05-55
+						</p>
+						<p class="contacts-adress">
+						г.Санкт-Петербург, ул.Б.Конюшенная, д.19/8
+						</p>
 					</div>
-					<div class="bottom-header-contacts-adress">
-					г.Санкт-Петербург, ул.Б.Конюшенная, д.19/8
+					<div class="user-block">
+						<div><a class="user-block-login" href="#">Иван Иванович</a></div>	
+						<div><a class="user-block-my-orders" href="#">Мои заказы</a></div>
+						<div><a class="user-block-my-room" href="#">Личный кабинет</a></div>
 					</div>
 				</div>
-				<div class="user-block">
-					<div><a class="user-block-login" href="#">Иван Иванович</a></div>	
-					<div><a class="user-block-my-orders" href="#">Мои заказы</a></div>
-					<div><a class="user-block-my-room" href="#">Личный кабинет</a></div>
-				</div>
-			</div>
-			<div class="container">
 				<nav class="main-navigation">
-					<ul>
+					<ul class="main-navigation-menu">
 						<li><a href="index.html">Главная</a></li>
 						<li><a href="#">Компания</a></li>
 						<li><a href="catalog.html">Каталог</a></li>
